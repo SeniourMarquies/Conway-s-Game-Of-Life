@@ -21,9 +21,6 @@ int getAdjacentLivesCount(int _x, int _y) {
       int y2 = (FIELD_HEIGHT + _y + y) % FIELD_HEIGHT;
       count += cells[current][y2][x2];
   }
-
-
-
   return count;
 }
 
